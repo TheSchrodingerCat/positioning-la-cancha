@@ -1,1 +1,57 @@
-/* Inserta tu CSS aqui */
+.cancha-section{
+	width: 700px;
+	height: 400px;
+}
+
+#cancha-big{
+	width: 700px;
+	height: 400px;
+	background: #348532;
+	position: relative;
+}
+
+#borde{
+	width: 670px;
+	height: 370px;
+	border: 1px white solid;
+	position: relative;
+	top: 15px;
+	left: 15px;
+}
+
+.arcos{
+	width: 100px;
+	height: 170px;
+	border: 1px white solid;
+}
+
+#arcoUno{
+	position: absolute;
+	top: 100px;
+	left: -1px;
+}
+
+#arcoDos{
+	position: absolute;
+	top: 100px;
+	right: -1px;
+}
+
+/* salido de CSS shapes */
+#circulo{
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	border: 1px white solid;
+	position: absolute;
+	top: 135px;
+	left: 285px;
+}
+
+
+
+
+
+
