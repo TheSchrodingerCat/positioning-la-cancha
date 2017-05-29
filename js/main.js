@@ -23,6 +23,20 @@ var circle = document.createElement("div");
 circle.setAttribute("class","cancha");
 circle.setAttribute("id","circulo");
 
+var bola;
+for (i=0 ; i<3 ; i++){
+	bola = document.createElement("div");
+	bola.setAttribute("class","ball");
+	bola.setAttribute("id","ball" + i.toString());
+
+	bola.style.width = "15px";
+	bola.style.height = "15px";
+	bola.style.backgroundSize = "cover";
+	bola.style.position = "absolute";
+
+	delineado.appendChild(bola);
+}
+
 seccion.appendChild(bordeCancha);
 delineado.appendChild(arcoUno);
 delineado.appendChild(arcoDos);

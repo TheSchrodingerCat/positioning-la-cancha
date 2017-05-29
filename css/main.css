@@ -50,7 +50,23 @@
 	left: 285px;
 }
 
+#ball0{
+	background-image: url("../img/bola.png");
+	top: 100px;
+	left: 95px;
+}
 
+#ball1{
+	background-image: url("../img/bola.png");
+	top: 60px;
+	left: 310px;
+}
+
+#ball2{
+	background-image: url("../img/bola.png");
+	bottom: 100px;
+	right: 100px;
+}
 
 
 
